@@ -1,0 +1,76 @@
+.ms-container {
+  width: 100%;
+  height: 600px;
+}
+
+.ms-canvas {
+  min-height: 300px;
+}
+
+.ms-top-group,
+.ms-top-box,
+.ms-menu-group,
+.ms-menu-box {
+  width: 100%;
+  min-height: 200px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.ms-top-item,
+.ms-menu-item {
+  margin-top: 20px;
+  width: 85%;
+}
+
+.ms-top-avatar-box,
+.ms-top-info-box {
+  width: 100%;
+  min-height: 30px;
+  justify-content: space-between;
+}
+
+.ms-top-pic-item {
+  height: 80px;
+  border-radius: 8px;
+}
+
+.ms-top-pic-item,
+.ms-top-info-title {
+  width: 80px;
+}
+
+.ms-top-name-item,
+.ms-top-info-content {
+  width: 60%;
+}
+
+.ms-top-name-item > p {
+  text-align: left;
+  line-height: 0;
+  width: 100%;
+}
+
+.ms-menu-item-box {
+  height: 50px;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ms-menu-item-box:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+.ms-menu-item-icon {
+  width: 30px;
+  height: 30px;
+  color: darkgray;
+}
+
+.ms-menu-item-title {
+  align-items: center;
+  width: 60%;
+}

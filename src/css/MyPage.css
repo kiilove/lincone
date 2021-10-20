@@ -1,0 +1,16 @@
+.mp-canvas {
+  width: 1150px;
+  align-items: flex-start;
+}
+
+.mp-left-group {
+  width: 315px;
+}
+
+.mp-blank-group {
+  width: 30px;
+}
+.mp-main-group {
+  width: 805px;
+}
+

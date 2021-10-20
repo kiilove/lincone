@@ -1,0 +1,64 @@
+.mui-container {
+  width: 100%;
+  min-height: 600px;
+}
+
+.mui-canvas {
+  background-color: white;
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.mui-header-group, .mui-header-box, .mui-body-group, .mui-body-box {
+  width: 100%;
+  min-height: 50px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.mui-header-item, .mui-body-item {
+  margin-top: 20px;
+  width: 94%;
+  justify-content: space-between;
+}
+
+.mui-dash-box {
+  width: 100%;
+  height: 1px;
+  background-color: #ada5a5;
+}
+
+.mui-body-group, .mui-body-box {  
+  height: 600px;
+}
+
+.mui-header-text-box{
+  width: 77%;
+}
+
+.mui-header-btn-box {
+  width: 23%;
+  justify-content: space-between;
+}
+
+.mui-text-title {
+  line-height: 5px;
+}
+
+.mui-btn-save {
+  width: 80px;
+  height: 35px;
+}
+
+.mui-body-form-text {
+  width: 30%;
+  text-align: left;
+
+}
+
+.mui-body-form-input {
+  text-align: left;
+  width: 70%;
+  min-height: 35px;
+}
+

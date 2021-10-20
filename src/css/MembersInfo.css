@@ -1,0 +1,147 @@
+.mi-container {
+  width: 100%;
+  min-height: 600px;
+}
+
+.mi-canvas {
+  min-height: 300px;
+}
+
+.mi-admin-group {
+  min-width: 300px;
+  min-height: 150px;
+  width: 100%;
+}
+
+.mi-admin-box {
+  width: 95%;
+  height: 95%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.mi-admin-top-box,
+.mi-admin-bottom-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mi-admin-top-box {
+  height: 120px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.mi-admin-bottom-box {
+  height: 80px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.mi-admin-top-item,
+.mi-admin-bottom-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.mi-admin-top-lt {
+  width: 15%;
+  margin-top: 10px;
+}
+
+.mi-admin-top-rt {
+  width: 85%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.mi-admin-info-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.mi-admin-info-name,
+.mi-admin-info-content {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.mi-admin-info-content {
+  color: #999999;
+}
+
+.mi-badge-icon {
+  width: 40px;
+}
+
+.mi-badge-title,
+.mi-badge-content {
+  height: 20px;
+  width: 110px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+.mi-body-user-box {
+  width: 250px;
+  min-height: 150px;
+}
+
+.mi-user-header {
+  width: 100%;
+}
+
+.mi-user-header-box {
+  width: 80%;
+}
+
+.mi-user-avatar {
+  width: 25%;
+}
+
+.mi-user-info-box {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.mi-user-name,
+.mi-user-sub {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 23px;
+}
+
+.mi-user-body-title {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mi-user-body-content {
+  width: 150px;
+  height: 25px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+}

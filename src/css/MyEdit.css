@@ -1,0 +1,9 @@
+.me-container {
+  width: 100%;
+}
+
+.me-canvas {
+  background-color: white;
+  border-radius: 10px;
+  min-height: 300px;
+}

@@ -1,0 +1,67 @@
+.ci-container {
+  width: 100%;
+  min-height: 600px;
+}
+
+.ci-canvas {
+  background-color: white;
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.ci-header-group,
+.ci-header-box,
+.ci-body-group,
+.ci-body-box {
+  width: 100%;
+  min-height: 50px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.ci-header-item,
+.ci-body-item {
+  margin-top: 20px;
+  width: 94%;
+  justify-content: space-between;
+}
+
+.ci-dash-box {
+  width: 100%;
+  height: 1px;
+  background-color: #ada5a5;
+}
+
+.ci-body-group,
+.ci-body-box {
+  height: 600px;
+}
+
+.ci-header-text-box {
+  width: 77%;
+}
+
+.ci-header-btn-box {
+  width: 23%;
+  justify-content: space-between;
+}
+
+.ci-text-title {
+  line-height: 5px;
+}
+
+.ci-btn-save {
+  width: 80px;
+  height: 35px;
+}
+
+.ci-body-form-text {
+  width: 30%;
+  text-align: left;
+}
+
+.ci-body-form-input {
+  text-align: left;
+  width: 70%;
+  min-height: 35px;
+}
